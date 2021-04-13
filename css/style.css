@@ -1,0 +1,37 @@
+/* DEBUG */
+
+.debug-red{
+    background-color: red;
+    height: 100px;
+    border: 1px solid black
+}
+
+.debug-blue{
+    background-color: blue;
+    height: 100px;
+    border: 1px solid black
+}
+
+.debug-yellow{
+    background-color: yellow;
+    height: 100px;
+    border: 1px solid black
+}
+
+.debug-green{
+    background-color: green;
+    height: 100px;
+    border: 1px solid black
+}
+
+.debug-purple{
+    background-color: purple;
+    height: 100px;
+    width: 100%;
+    border: 1px solid black
+}
+.width-100{
+    width: 100%;
+}
+
+/* /DEBUG */
