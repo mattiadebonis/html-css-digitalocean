@@ -42,5 +42,42 @@
 
 .m_navbar_logo{
     height:30px;
-    margin-right: 50px;
+}
+.padding-15{
+    /* bug-fix li destra della nav bar*/
+    padding-top: 15.5px;
+}
+.m_bg_jumbo{
+    background-image: url(../img/bg-banner-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    height: 360px;
+}
+
+.m_jumbo_account{
+    background-color:white;
+    height: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+h1{
+    font-size: 50px;
+}
+
+.m_bg_jumbo h1,p{
+    
+    margin-right: 100px;
+
+}
+
+
+.m_color_white{
+    color: white;
+
+}
+
+.m_color_light_gray{
+    color: lightgray;
 }
