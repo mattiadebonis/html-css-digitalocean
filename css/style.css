@@ -62,6 +62,7 @@
     margin-bottom: 10px;
 
 }
+
 h1{
     font-size: 50px;
 }
@@ -69,15 +70,46 @@ h1{
 .m_bg_jumbo h1,p{
     
     margin-right: 100px;
-
 }
 
 
 .m_color_white{
     color: white;
-
 }
 
 .m_color_light_gray{
     color: lightgray;
 }
+
+
+@media screen and (max-width:992px){
+    h1{
+        margin-top: 30px;
+        font-size: 32px;
+    }
+
+    .m_jumbo_md{
+        height: 540px;
+    }
+
+    .m_jumbo_account_md{
+        margin-top: 30px;
+        height: 360px;
+    }
+    
+
+}
+
+@media screen and (max-width:768px){
+    .m_bg_jumbo_account_xs{
+        height: 340px;
+
+    }    
+    
+    .m_jumbo_xs{
+        height: 700px;
+
+
+    }
+}
+
