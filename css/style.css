@@ -24,6 +24,13 @@
     border: 1px solid black
 }
 
+.debug-orange{
+    background-color: orange;
+    height: 200px;
+    border: 1px solid black
+
+
+}
 .debug-purple{
     background-color: purple;
     height: 100px;
@@ -40,6 +47,10 @@
 
 /* /DEBUG */
 
+.m_color_blue{
+    color:rgb(3,74,255)
+
+}
 .m_navbar_logo{
     height:30px;
 }
@@ -47,17 +58,22 @@
     /* bug-fix li destra della nav bar*/
     padding-top: 15.5px;
 }
-.m_bg_jumbo{
+
+/*JUMBOTRON*/
+
+.m_jumbo_LG{
     background-image: url(../img/bg-banner-home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 30px;
-    height: 360px;
+    height: 400px;
 }
 
 .m_jumbo_account{
+    padding:20px;
+    text-align: center;
     background-color:white;
-    height: 280px;
+    height: 320px;
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -67,8 +83,7 @@ h1{
     font-size: 50px;
 }
 
-.m_bg_jumbo h1,p{
-    
+.m_bg_jumbo h1,p{ 
     margin-right: 100px;
 }
 
@@ -81,28 +96,96 @@ h1{
     color: lightgray;
 }
 
+.m_radius{
+    border-radius: 5px;
+}
+
+.m_logo_google{
+    position: absolute;
+    left: 5%;
+    top: 10px;
+    height: 15px;
+}
+
+.m_google_btn{
+    background-color: white;
+    color: black;
+    position:relative;
+}
+form input,h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.m_font_extra_little{
+    font-size: 12px;
+}
+
+.m_font_little{
+    font-size: 14px;
+}
+
+.m_btn_account{
+    font-size: 14px;
+}
+
+/*MAIN*/
+
+/*PARTNER*/
+.m_img_partner{
+    height: 75px;
+}
+
+.m_partner_lg{
+    background-color: rgb(242,245,249);
+    height:200px;
+    padding-top:30px;
+}
+
+/* DEPLOY*/
+
+.m_container_process{
+    border-left: 1px solid gray;
+    margin-right:30px;
+    padding:10px;
+
+}
+
+.m_img_deploy{
+    width: 75px;
+    align-items: left;
+    margin-bottom: 10px;
+}
+
+.m_container_title_deploy{
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+.m_section_deploy{
+    margin-bottom:40px;
+}
 
 @media screen and (max-width:992px){
     h1{
         margin-top: 30px;
-        font-size: 32px;
+        font-size: 40px;
     }
 
     .m_jumbo_md{
-        height: 540px;
+        height: 440px;
     }
 
     .m_jumbo_account_md{
         margin-top: 30px;
         height: 360px;
     }
-    
-
 }
 
 @media screen and (max-width:768px){
     .m_bg_jumbo_account_xs{
-        height: 340px;
+        margin-top:10px;
+        height: 320px;
 
     }    
     
@@ -110,6 +193,9 @@ h1{
         height: 700px;
 
 
+    }
+    .m_partner_sm{
+        height:320px;
     }
 }
 
