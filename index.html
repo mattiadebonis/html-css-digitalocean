@@ -11,8 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <!--icon bootstrap-->
-    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-    <link href="/open-iconic/font/css/open-iconic.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">    <link href="/open-iconic/font/css/open-iconic.css" rel="stylesheet">
+
     <!-- css locale-->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -34,14 +34,14 @@
                     <div class="collapse navbar-collapse offset-lg-2 col-lg-4" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+                                <a class="nav-link active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product<i class="bi bi-chevron-down"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">Costumers</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Community
+                                <a class="nav-link active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Community <i class="bi bi-chevron-down"></i>
                                 </a>
                                 <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -67,13 +67,7 @@
                                     <a class="nav-link active padding-15" aria-current="page" href="#">Docs</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active dropdown-toggle padding-15" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Support</a>
-                                    <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul> -->
+                                    <a class="nav-link active  padding-15" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Support<i class="bi bi-chevron-down"></i></a>
                                 </li>
                                 <li class="nav-item dropdown ">
                                     <a class="nav-link active padding-15" aria-current="page" href="#">
@@ -88,11 +82,11 @@
                         </div>
                         <!-- /menù visualizzazione desktop-->
 
-                        <!-- pulsante visualizzazione tablet e smartphone-->
+                        <!-- hamburger icon-->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <!-- /pulsante visualizzazione tablet e smartphone-->
+                        <!-- /hamburger icon-->
                     </div>
                     <!-- menù destro-->
                  </nav> 
@@ -107,10 +101,10 @@
                 <div class="row">
                     <div class="col-lg-7 col-md-7 ">
                         <h1 class="m_color_white">The simplest cloud platform for developers & teams</h1>
-                        <p class="m_color_light_gray">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We mke managing infrastructure easy for teams and businessed, whether you're running one virtual machine or ten thousand.</p>
+                        <p class="m_color_light_gray">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businessed, whether you're running one virtual machine or ten thousand.</p>
 
                     </div>
-                    <div class="col-lg-5 col-md-5 m_jumbo_account m_jumbo_account_md m_bg_jumbo_account_xs m_radius">
+                    <div class="col-lg-5 col-md-5 m_jumbo_account m_jumbo_account_md m_bg_jumbo_account_xs m_radius text-center">
                         <h3>Deploy your app in seconds.</h3>
                         <h3 class="m_color_blue">Get started now.</h3>
 
@@ -125,7 +119,7 @@
                               </div>
 
                         </form>
-                        <p class="m_font_extra_little">By signing up you agree to the <a href="#">Terms of Service</a>.</p>
+                        <p class="m_font_extra_little m_position_terms">By signing up you agree to the <a href="#">Terms of Service</a>.</p>
 
                     </div>
                 </div>
@@ -147,37 +141,34 @@
                     <!-- container immagini partner-->
                     <div class="col-lg-2 col-md-2 col-sm-6">
                         <a href="">
-                            <img class="m_img_partner" src="img/docker.svg" alt="docker">
+                            <img class="m_img_partner_lg m_img_partner_md" src="img/docker.svg" alt="docker">
                         </a>
-                        
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6">
                         <a href="">
-                            <img class="m_img_partner" src="img/gitlab.svg" alt="gitlab">
+                            <img class="m_img_partner_lg m_img_partner_md" src="img/gitlab.svg" alt="gitlab">
                         </a>
-                          
                     </div>               
                     <div class="col-lg-2 col-md-2 col-sm-6">
                         <a href="">
-                            <img class="m_img_partner" src="img/slack.svg" alt="slack">
+                            <img class="m_img_partner_lg m_img_partner_md" src="img/slack.svg" alt="slack">
                         </a>
-    
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6">
                         <a href="">
-                            <img class="m_img_partner" src="img/hashicorp.svg" alt="hashicorpo">
+                            <img class="m_img_partner_lg m_img_partner_md" src="img/hashicorp.svg" alt="hashicorpo">
                         </a>
                         
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6">
                         <a href="">
-                            <img class="m_img_partner" src="img/hashicorp.svg" alt="hashicorp">
+                            <img class="m_img_partner_lg m_img_partner_md" src="img/hashicorp.svg" alt="hashicorp">
                         </a>
                        
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-6">
                         <a href="">
-                            <img class="m_img_partner" src="img/splunk.svg" alt="splunk">
+                            <img class="m_img_partner_lg m_img_partner_md" src="img/splunk.svg" alt="splunk">
                         </a>
                         
                     </div>
@@ -200,7 +191,7 @@
             </div>
             <div class="container ">
                 <div class="row">
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-lg-2 col-md-3">
                         <div class="m_container_process">
                             <p class="text-secondary">Deploy</p>
                             <p class="text-secondary">Manage</p>
@@ -210,28 +201,28 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-10 col-md-10">
+                    <div class="col-lg-10 col-md-9">
                         <div class="row">
-                            <div class="row col-lg-6 ">
+                            <div class="row col-lg-6 col-md-6">
                                 <img class="m_img_deploy" src="img/cluster-deploy.svg" alt="cluster">
                                 <h5>Cluster deployments</h5>
                                 <p class="m_font_little">Provision multiple Droplets (virtual machines) in secons with our control panel,CLI, or directly againts our API</p>
 
 
                             </div>
-                           <div class="row col-lg-6">
+                           <div class="row col-lg-6 col-md-6">
                             <img class="m_img_deploy" src="img/optimized-compute.svg" alt="optimized">
                             <h5>Optimized compute types</h5>
                             <p class="m_font_little">Get the compute resources you need with Standard or Optimized Droplets.</p>
                            </div>
                         </div>
                         <div class="row">
-                            <div class="row col-lg-6">
+                            <div class="row col-lg-6 col-md-6">
                                 <img class="m_img_deploy" src="img/one-click.svg" alt="one-click">
                                 <h5>One click apps</h5>
                                 <p class="m_font_little">Skip the install and configuration process withe pre-built open configuration process with pre-built open sources images supporting Rails, Cassandra, Docker and more</p>
                             </div>
-                           <div class="row col-lg-6">
+                           <div class="row col-lg-6 col-md-6">
                             <img class="m_img_deploy" src="img/global.svg" alt="global">
                             <h5>Global availability</h5>
                             <p class="m_font_little">Deploy to any of our data center regions around the world</p>
@@ -251,22 +242,29 @@
                 <div class="text-center">
                     <div class="container m_container_title_deploy">
                         <h2>Designed for developers</h2>
-                        <p class="tex-secondary">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API</p> 
+                        <p class="text-secondary">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API</p> 
                     </div>
                 </div>
                 <!-- /titolo sezione design-->
 
                 <!-- carosello immagini-->
                 <div class="m_carousel text-center">
-                    <span class="oi" data-glyph="chevron-left"></span>
-                    <img src="img/slide.jpg" class="m_wd_60" alt="...">
-                    <a class="m_right_carousel" href="#"><span class="oi oi-chevron-right"></span></a>
-                    <p class="m_font_little">Create compute servers in 55 seconds or less.</p>
+                    <div class="text-center">
+                        <a class="d-sm-none" href="#"><i class="bi bi-chevron-left m_chevron"></i></a>
+                        <img src="img/slide.jpg" class="m_wd_50 m_img_carousel_margin" alt="...">
+                        <a class="d-sm-none" href="#"><i class="bi bi-chevron-right m_chevron"></i></span></a>
+                        <p class="m_description_carousel">Create compute servers in 55 seconds or less.</p>
+
+                    </div>
+                    
+
+                    <!-- navigator carosello-->
                     <div>
-                        <a href="#"><div class="m_button_carousel"></div></a>    
+                        <a href="#" id="m_carousel_active"><div class="m_button_carousel"></div></a>    
                         <a href="#"><div class="m_button_carousel"></div></a>    
                         <a href="#"><div class="m_button_carousel"></div></a>    
                     </div>
+                    <!-- /navigator carosello-->
                   </div>
                 <!-- /carosello immagini-->
             </div>
@@ -280,20 +278,20 @@
                     <div class="m_container_title_feature text-center">
                         <h2>The features your business needs</h2>
                     </div>
-                    <div class="col-lg-4 col-md-4">
-                        <img class="m_img_deploy" src="img/pred-pricing.svg" alt="pricing">
+                    <div class="col-lg-4 col-md-4 m_sm_container_feature">
+                        <img class="m_img_feature" src="img/pred-pricing.svg" alt="pricing">
                         <h5>Predictable pricing</h5>
                         <p class="m_font_little">Leave complex pricing structures behind. Always know what you'll pay per month with a flat</p>
                         <a href="#" class="m_font_little">Pricing ></a>
                     </div>
-                    <div class="col-lg-4 col-md-4">
-                        <img class="m_img_deploy" src="img/world-class.svg" alt="world">
+                    <div class="col-lg-4 col-md-4 m_sm_container_feature">
+                        <img class="m_img_feature" src="img/world-class.svg" alt="world">
                         <h5>World-class service</h5>
                         <p class="m_font_little">Free round-the-clock technical support for all costumers. You'll feel the love.</p>
                         <a href="#" class="m_font_little">Support ></a>
                     </div>
-                    <div class="col-lg-4 col-md-4">
-                        <img class="m_img_deploy" src="img/optimized-compute.svg" alt="optimized">
+                    <div class="col-lg-4 col-md-4 m_sm_container_feature">
+                        <img class="m_img_feature" src="img/reliable-platform.svg" alt="reliable">
                         <h5>Reliable platform</h5>
                         <p class="m_font_little">More than 100,000 devekioer teans worldwide trust DigitalOcean to support their businesses with a 99,99% uptime SLA for all services.</p>
                         <a href="#" class="m_font_little">Security ></a>
@@ -307,8 +305,8 @@
         <!-- region-->
         <section class="m_section_regions">
             <div class="container">
-                <div class="row">
-                    <h2>Service your customers around the world from 12 regions</h2>
+                <div class="row ">
+                    <h2 class="text-center">Service your customers around the world from 12 regions</h2>
 
                     <!-- first table-->
                     <div class="col-lg-6 col-md-12 ">
@@ -320,36 +318,34 @@
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
+                                    <td>AMS3</td>
                                     <td>Amsterdam, Netherlands</td>
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
-                                    <td>Amsterdam, Netherlands</td>
+                                    <td>BLR1</td>
+                                    <td>Bangalore, India</td>
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
-                                    <td>Amsterdam, Netherlands</td>
+                                    <td>FRA1</td>
+                                    <td>Frankfurt, German</td>
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
-                                    <td>Amsterdam, Netherlands</td>
+                                    <td>LON1</td>
+                                    <td>London, UK</td>
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
-                                    <td>Amsterdam, Netherlands</td>
+                                    <td>NYC1</td>
+                                    <td>New York, USA</td>
                                     <td>Test speed ></td>
                                 </tr>
-                                
                             </tbody>
-                        </table>
-                        <!-- /first table-->
-                    
+                        </table>                    
                     </div>
+                    <!-- /first table-->
 
                     <!--second table-->
                     <div class="col-lg-6 col-md-12 ">
@@ -361,36 +357,35 @@
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
+                                    <td>AMS3</td>
                                     <td>Amsterdam, Netherlands</td>
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
-                                    <td>Amsterdam, Netherlands</td>
+                                    <td>BLR1</td>
+                                    <td>Bangalore, India</td>
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
-                                    <td>Amsterdam, Netherlands</td>
+                                    <td>FRA1</td>
+                                    <td>Frankfurt, German</td>
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
-                                    <td>Amsterdam, Netherlands</td>
+                                    <td>LON1</td>
+                                    <td>London, UK</td>
                                     <td>Test speed ></td>
                                 </tr>
                                 <tr>
-                                    <td>AMS2</td>
-                                    <td>Amsterdam, Netherlands</td>
+                                    <td>NYC1</td>
+                                    <td>New York, USA</td>
                                     <td>Test speed ></td>
                                 </tr>
-                                
                             </tbody>
                         </table>
                     </div>
-                    <!-- /second table-->
                 </div>
+                <!-- /second table-->
             </div>
         </section>
         <!-- /region-->
@@ -400,15 +395,22 @@
             <h2>Development teams love DigitalOcean</h2>
              <!-- carosello immagini-->
              <div class="m_carousel text-center">
-                <span class="oi" data-glyph="chevron-left"></span>
-                <img src="img/" class="m_wd_40" alt="...">
-                <a class="m_right_carousel" href="#"><span class="oi oi-chevron-right"></span></a>
-                <p class="m_font_little">Create compute servers in 55 seconds or less.</p>
+                <div class="text-center">
+                    <a class="d-sm-none" href="#"><i class="bi bi-chevron-left m_chevron"></i></a>
+                    <img src="img/slide.jpg" class="m_wd_50 m_img_carousel_margin" alt="...">
+                    <a class="d-sm-none" href="#"><i class="bi bi-chevron-right m_chevron"></i></span></a>
+                    <p class="m_description_carousel">Create compute servers in 55 seconds or less.</p>
+
+                </div>
+                
+
+                <!-- navigator carosello-->
                 <div>
-                    <a href="#"><div class="m_button_carousel"></div></a>    
+                    <a href="#" id="m_carousel_active"><div class="m_button_carousel"></div></a>    
                     <a href="#"><div class="m_button_carousel"></div></a>    
                     <a href="#"><div class="m_button_carousel"></div></a>    
                 </div>
+                <!-- /navigator carosello-->
               </div>
             <!-- /carosello immagini-->
             
@@ -430,112 +432,114 @@
         <div class="container">
             <div class="row m_padding_50">
                 <!-- prima colonna-->
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 m_padding_none">
                     <img src="img/logo-small.svg" alt="logo-small">
-                    <p class="m_little_font">(C) DigitalOcean,LLC. All rights reserved.</p>
-                    <p class="m_little_font">Prouldy made in NY</p>
+                    <p class="m_font_little">(C) DigitalOcean,LLC. All rights reserved.</p>
+                    <p class="m_font_little">Prouldy made in NY</p>
                     <span></span>
 
                 </div>
                 <!-- /prima colonna-->
+                <div class="col-lg-8 row m_padding_none">
+                    <!-- seconda colonna-->
+                    <div class="col-lg-3 col-md-6 m_padding_none">
+                        <h6>Company</h6>
+                        <a href="#">
+                            <p class="m_font_little m_bold">About</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Leadership</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Link</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Blog</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Careers</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Partner Network</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Refferal Program</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Events</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Press</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Legal & Security</p>
+                        </a>
+                    </div>
+                    <!-- /seconda colonna-->
+                    <!-- terza colonna-->
+                    <div class="col-lg-3 col-md-6 m_padding_none">
+                        <h6>Products</h6>
+                        <a href="#">
+                            <p class="m_font_little m_bold">Droplets</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Spaces</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Kubernetes</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Load Balancer</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Block Storage</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">One-click Apps</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">API</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Pricing</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Documentation</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Rele m_boldase Notes</p>
+                        </a><a href="">
+                            <p class="m_font_little m_bold"></p>
+                        </a>
+                    </div>
+                    <!-- /terza colonna-->
+                    <!-- quarta colonna-->
+                    <div class="col-lg-3 col-md-6 m_padding_none">
+                        <h6>Community</h6>
+                        <a href="#">
+                            <p class="m_font_little m_bold">Tutorials</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Meetups</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Q&A</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Write for Donations</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Droplets for Demos</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">HTCH</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Shop Swag</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Research Program</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">Current Research</p>
+                        </a>
+                        <a href="#">
+                            <p class="m_font_little m_bold">Open Source</p>
+                        </a>
 
-                <!-- seconda colonna-->
-                <div class="col-lg-2 col-md-6">
-                <h6>Company</h6>
-                <a href="#">
-                    <p class="m_font_extra_little text-secondary">About</p>
-                </a><a href="#">
-                    <p class="m_font_extra_little text-secondary">Leadership</p>
-                </a><a href="#">
-                    <p class="m_font_extra_little text-secondary">Link</p>
-                </a><a href="#">
-                    <p class="m_font_extra_little text-secondary">Blog</p>
-                </a><a href="#">
-                    <p class="m_font_extra_little text-secondary">Careers</p>
-                </a><a href="#">
-                    <p class="m_font_extra_little text-secondary">Partner Network</p>
-                </a><a href="#">
-                    <p class="m_font_extra_little text-secondary">Refferal Program</p>
-                </a><a href="#">
-                    <p class="m_font_extra_little text-secondary">Events</p>
-                </a><a href="#">
-                    <p class="m_font_extra_little text-secondary">Press</p>
-                </a><a href="#">
-                    <p class="m_font_extra_little text-secondary">Legal & Security</p>
-                </a>
+                    </div>
+                    <!-- /quarta colonna-->
+
+                    <!-- quinta colonna-->
+                    <div class="col-lg-3 col-md-6 m_padding_none">
+                        <h6>Support</h6>
+                        <a href="#">
+                            <p class="m_font_little m_bold">Contact Support</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold">FAQ</p>
+                        </a><a href="#">
+                            <p class="m_font_little m_bold ">Network Status</p>
+                        </a>
+
+                    </div>
+                    <!-- q/uinta colonna-->
                 </div>
-                <!-- /seconda colonna-->
 
-                <!-- terza colonna-->
-                <div class="col-lg-2 col-md-6 ">
-                    <h6>Products</h6>
-                    <a href="#">
-                        <p class="m_font_extra_little text-secondary">Droplets</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Spaces</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Kubernetes</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Load Balancer</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Block Storage</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">One-click Apps</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">API</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Pricing</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Documentation</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Release Notes</p>
-                    </a><a href="">
-                        <p class="m_font_extra_little text-secondary"></p>
-                    </a>
-                </div>
-                <!-- /terza colonna-->
-                <!-- quarta colonna-->
-                <div class="col-lg-2 col-md-6">
-                    <h6>Community</h6>
-                    <a href="#">
-                        <p class="m_font_extra_little text-secondary">Tutorials</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Meetups</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Q&A</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Write for Donations</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Droplets for Demos</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">HTCH</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Shop Swag</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Research Program</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Current Research</p>
-                    </a>
-                    <a href="#">
-                        <p class="m_font_extra_little text-secondary">Open Source</p>
-                    </a>
-
-                </div>
-                <!-- /quarta colonna-->
-
-                <!-- quinta colonna-->
-                <div class="col-lg-2 col-md-6">
-                    <h6>Support</h6>
-                    <a href="#">
-                        <p class="m_font_extra_little text-secondary">Contact Support</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">FAQ</p>
-                    </a><a href="#">
-                        <p class="m_font_extra_little text-secondary">Network Status</p>
-                    </a>
-
-                </div>
-                <!-- q/uinta colonna-->
+                
             </div>
         </div>
 

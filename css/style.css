@@ -1,42 +1,3 @@
-/* DEBUG */
-
-.debug-red{
-    background-color: red;
-    height: 100px;
-    border: 1px solid black
-}
-
-.debug-blue{
-    background-color: blue;
-    height: 100px;
-    border: 1px solid black
-}
-
-.debug-yellow{
-    background-color: yellow;
-    height: 100px;
-    border: 1px solid black
-}
-
-.debug-green{
-    background-color: green;
-    height: 100px;
-    border: 1px solid black
-}
-
-.debug-orange{
-    background-color: orange;
-    height: 200px;
-    border: 1px solid black
-
-
-}
-.debug-purple{
-    background-color: purple;
-    height: 100px;
-    width: 100%;
-    border: 1px solid black
-}
 .width-100{
     width: 100%;
 }
@@ -46,6 +7,13 @@
 }
 
 /* /DEBUG */
+.m_padding_none{
+    padding: 0px;
+}
+
+.m_bold{
+    font-weight: 600;
+}
 
 .m_color_blue{
     color:rgb(3,74,255)
@@ -54,9 +22,18 @@
 .m_navbar_logo{
     height:30px;
 }
+
 .padding-15{
-    /* bug-fix li destra della nav bar*/
-    padding-top: 15.5px;
+    /* bug-fix nav bar destra*/
+    padding-top: 16px;
+}
+
+.m_chevron{
+    font-size: 50px;
+    font-weight: 900;
+    color:black;
+    margin: 20px;
+
 }
 
 /*JUMBOTRON*/
@@ -80,7 +57,6 @@ a{
     height: 320px;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 h1{
@@ -108,7 +84,7 @@ h1{
 .m_logo_google{
     position: absolute;
     left: 5%;
-    top: 10px;
+    top: 7px;
     height: 15px;
 }
 
@@ -117,6 +93,7 @@ h1{
     color: black;
     position:relative;
 }
+
 form input,h3{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -126,12 +103,19 @@ form input,h3{
     font-size: 12px;
 }
 
+.m_position_terms{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 .m_font_little{
     font-size: 14px;
 }
 
 .m_btn_account{
     font-size: 14px;
+    height: 30px; 
+    line-height:17px;
 }
 
 .m_padding_50{
@@ -142,6 +126,7 @@ form input,h3{
 /*PARTNER*/
 .m_img_partner{
     height: 75px;
+    padding:0px;
 }
 
 .m_partner_lg{
@@ -156,7 +141,7 @@ form input,h3{
     border-left: 1px solid gray;
     margin-right:30px;
     padding:10px;
-
+    margin-bottom:20px;
 }
 
 .m_img_deploy{
@@ -168,8 +153,8 @@ form input,h3{
 .m_container_title_deploy{
     margin-top:50px;
     margin-bottom:50px;
-
 }
+
 .m_section_deploy{
     margin-bottom:40px;
 }
@@ -179,11 +164,21 @@ form input,h3{
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgb(242,245,249);
-
 }
+
+.m_description_carousel{
+    margin-right: 0;
+    margin-top:30px;
+    font-size: 14px;
+}
+
 .m_wd_60{
     width: 60%;   
     margin: 0 auto;
+}
+
+.m_wd_50{
+    width:50%;
 }
 
 .m_left_carousel{
@@ -205,14 +200,15 @@ form input,h3{
     border-radius: 30px;
     border: 1px solid blue;
 }
-a:active .m_button_carousel{
-    color: blue;
-}
+
+
 .m_button_carousel:active{
-    color: blue;
+    background-color: blue;
 }
 
-/* SECTION FEATURE */
+
+
+/*  FEATURE */
 .m_section_feature{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -223,37 +219,27 @@ a:active .m_button_carousel{
 
 }
 
-@media screen and (max-width:992px){
-    h1{
-        margin-top: 30px;
-        font-size: 40px;
-    }
-
-    .m_jumbo_md{
-        height: 440px;
-    }
-    
-    .m_jumbo_account_md{
-        margin-top: 30px;
-        height: 360px;
-    }
+.m_img_feature{
+    height: 40px;
+    margin-bottom:20px;
 }
+
 
 /*REGIONS*/
 .m_section_regions{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: blue;
+    background-image: linear-gradient(rgb(1,72,197),rgb(2,30,154));
     color:white;
 
 }
-table {
+table{
     border-collapse: collapse;
     width: 100%;
     color:white;
 }
 
-tr {
+tr{
     border-bottom: 1px solid #ccc;
     font-size: 10px;
     line-height: 30px;
@@ -270,14 +256,19 @@ td:first-child{
     font-weight: bold;
 }
 
+td:nth-child(2) {
+    color: lightgray;
+    font-weight: bold;
+}
+
 td:last-child{
     text-align: right;
     padding-right: 10px;
     font-weight: bold;
-    color: green;
+    color: rgb(0,213,209);
 }
 
-/* section teams*/
+/* TEAMS*/
 .m_section_teams{
     text-align: center;
     padding-bottom: 40px;
@@ -296,7 +287,7 @@ td:last-child{
     text-align: center;
     padding-bottom: 40px;
     padding-top: 50px;
-    background-color: blue;
+    background-image: linear-gradient(rgb(1,72,197),rgb(2,30,154));
 
 }
 
@@ -314,28 +305,69 @@ td:last-child{
 /* FOOTER */
 
 .m_footer{
-    background-color: darkblue;
+    background-color: rgb(3,28,78);
 }
 
 .m_footer h6{
     color:white;
+    margin-bottom:5px;
 }
 
 .m_footer p{
     color:lightgray;
 }
 
+@media screen and (max-width:992px){
+    h1{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .m_jumbo_md{
+        height: 440px;
+    }
+    
+    .m_jumbo_account_md{
+        margin-top: 30px;
+        height: 360px;
+    }
+
+    .m_img_partner_md{
+        height:50px;
+    }
+    table{
+        margin-bottom:20px;
+    }
+}
+
+
 @media screen and (max-width:768px){
+    
+
     .m_bg_jumbo_account_xs{
         margin-top:10px;
         height: 320px;
     }    
+
+    .m_img_partner_sm{
+        height: 60px;
+    }
     
     .m_jumbo_xs{
         height: 700px;
+
     }
-    .m_partner_sm{
-        height:320px;
+
+    .m_img_carousel_margin{
+        margin-top: 50px;
     }
+
+    .m_sm_container_feature{
+        margin-bottom: 40px;
+    }
+
+    
+   
+    
 }
 
