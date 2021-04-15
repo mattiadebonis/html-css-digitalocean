@@ -31,24 +31,18 @@
                     <!-- /logo-->   
 
                     <!-- menù centrale -->
-                    <div class="collapse navbar-collapse offset-lg-2 col-lg-4" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse offset-lg-1 col-lg-5 m_margin_15" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product<i class="bi bi-chevron-down"></i></a>
+                                <a class="nav-link active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product<i class="bi bi-chevron-down m_font_extra_little"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">Costumers</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Community <i class="bi bi-chevron-down"></i>
+                                Community <i class="bi bi-chevron-down m_font_extra_little"></i>
                                 </a>
-                                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul> -->
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
@@ -67,7 +61,7 @@
                                     <a class="nav-link active padding-15" aria-current="page" href="#">Docs</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active  padding-15" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Support<i class="bi bi-chevron-down"></i></a>
+                                    <a class="nav-link active  padding-15" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Support<i class="bi bi-chevron-down m_font_extra_little"></i></a>
                                 </li>
                                 <li class="nav-item dropdown ">
                                     <a class="nav-link active padding-15" aria-current="page" href="#">
@@ -92,11 +86,10 @@
                  </nav> 
             </div>
         </div>
-     
         <!-- /navbar-->
 
         <!-- jumbotron-->
-        <div class="m_jumbo_LG m_jumbo_md m_jumbo_xs">
+        <div class="m_jumbo_lg m_jumbo_md m_jumbo_xs">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-7 ">
@@ -133,10 +126,10 @@
     <!--main-->
     <main>
         <!-- partner-->
-        <section class="m_partner_lg m_partner_sm">
+        <section class="m_partner">
             <div class="container ">
                 <div class="row text-center">
-                    <p class="text-uppercase m_font_little text-secondary font-weight-bold">Innovate businneses trust digitalocean</p>
+                    <p class="text-uppercase m_font_little text-secondary font-weight-bold m_margin_none">Innovate businneses trust digitalocean</p>
 
                     <!-- container immagini partner-->
                     <div class="col-lg-2 col-md-2 col-sm-6">
@@ -174,7 +167,7 @@
                     </div>
                      <!-- /container immagini partner-->
 
-                    <a href="#"><p class="m_font_little">View costumer stories ></p></a>
+                    <a href="#"><p class="m_font_little m_stories">View costumer stories ></p></a>
 
                 </div>
             </div>
@@ -250,9 +243,9 @@
                 <!-- carosello immagini-->
                 <div class="m_carousel text-center">
                     <div class="text-center">
-                        <a class="d-sm-none" href="#"><i class="bi bi-chevron-left m_chevron"></i></a>
+                        <a class="m_hidden_sm" href="#"><i class="bi bi-chevron-left m_chevron"></i></a>
                         <img src="img/slide.jpg" class="m_wd_50 m_img_carousel_margin" alt="...">
-                        <a class="d-sm-none" href="#"><i class="bi bi-chevron-right m_chevron"></i></span></a>
+                        <a class="m_hidden_sm" href="#"><i class="bi bi-chevron-right m_chevron"></i></span></a>
                         <p class="m_description_carousel">Create compute servers in 55 seconds or less.</p>
 
                     </div>
@@ -396,9 +389,9 @@
              <!-- carosello immagini-->
              <div class="m_carousel text-center">
                 <div class="text-center">
-                    <a class="d-sm-none" href="#"><i class="bi bi-chevron-left m_chevron"></i></a>
+                    <a class="m_hidden_sm" href="#"><i class="bi bi-chevron-left m_chevron"></i></a>
                     <img src="img/slide.jpg" class="m_wd_50 m_img_carousel_margin" alt="...">
-                    <a class="d-sm-none" href="#"><i class="bi bi-chevron-right m_chevron"></i></span></a>
+                    <a class="m_hidden_sm" href="#"><i class="bi bi-chevron-right m_chevron"></i></span></a>
                     <p class="m_description_carousel">Create compute servers in 55 seconds or less.</p>
 
                 </div>
@@ -433,37 +426,51 @@
             <div class="row m_padding_50">
                 <!-- prima colonna-->
                 <div class="col-lg-4 col-md-12 m_padding_none">
-                    <img src="img/logo-small.svg" alt="logo-small">
-                    <p class="m_font_little">(C) DigitalOcean,LLC. All rights reserved.</p>
-                    <p class="m_font_little">Prouldy made in NY</p>
-                    <span></span>
-
+                    <img class="m_logo_small" src="img/logo-small.svg" alt="logo-small">
+                    <p>&copy; DigitalOcean,LLC. All rights reserved.</p>
+                    <p class="m_font_extra_little">Prouldy made in NY</p>
+                    <div>
+                        <a href="#"><i class="bi bi-twitter m_social_btn"></i></a>
+                        <a href="#"><i class="bi bi-facebook m_social_btn"></i></a>
+                        <a href="#"><i class="bi bi-instagram m_social_btn"></i></a>
+                        <a href="#"><i class="bi bi-youtube m_social_btn"></i></a>
+                        <a href="#"><i class="bi bi-linkedin m_social_btn"></i></a>
+                    </div>
                 </div>
                 <!-- /prima colonna-->
-                <div class="col-lg-8 row m_padding_none">
+                <div class="col-lg-8 row m_container_menu_footer">
                     <!-- seconda colonna-->
                     <div class="col-lg-3 col-md-6 m_padding_none">
                         <h6>Company</h6>
                         <a href="#">
-                            <p class="m_font_little m_bold">About</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Leadership</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Link</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Blog</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Careers</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Partner Network</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Refferal Program</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Events</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Press</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Legal & Security</p>
+                            <p>About</p>
+                        </a>
+                        <a href="#">
+                            <p>Leadership</p>
+                        </a>
+                        <a href="#">
+                            <p>Link</p>
+                        </a>
+                        <a href="#">
+                            <p>Blog</p>
+                        </a>
+                        <a href="#">
+                            <p>Careers</p>
+                        </a>
+                        <a href="#">
+                            <p>Partner Network</p>
+                        </a>
+                        <a href="#">
+                            <p>Refferal Program</p>
+                        </a>
+                        <a href="#">
+                            <p>Events</p>
+                        </a>
+                        <a href="#">
+                            <p>Press</p>
+                        </a>
+                        <a href="#">
+                            <p>Legal & Security</p>
                         </a>
                     </div>
                     <!-- /seconda colonna-->
@@ -471,54 +478,70 @@
                     <div class="col-lg-3 col-md-6 m_padding_none">
                         <h6>Products</h6>
                         <a href="#">
-                            <p class="m_font_little m_bold">Droplets</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Spaces</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Kubernetes</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Load Balancer</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Block Storage</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">One-click Apps</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">API</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Pricing</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Documentation</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Rele m_boldase Notes</p>
-                        </a><a href="">
-                            <p class="m_font_little m_bold"></p>
+                            <p>Droplets</p>
+                        </a>
+                        <a href="#">
+                            <p>Spaces</p>
+                        </a>
+                        <a href="#">
+                            <p>Kubernetes</p>
+                        </a>
+                        <a href="#">
+                            <p>Load Balancer</p>
+                        </a>
+                        <a href="#">
+                            <p>Block Storage</p>
+                        </a>
+                        <a href="#">
+                            <p>One-click Apps</p>
+                        </a>
+                        <a href="#">
+                            <p>API</p>
+                        </a>
+                        <a href="#">
+                            <p>Pricing</p>
+                        </a>
+                        <a href="#">
+                            <p>Documentation</p>
+                        </a>
+                        <a href="#">
+                            <p>Release Notes</p>
                         </a>
                     </div>
                     <!-- /terza colonna-->
+
                     <!-- quarta colonna-->
                     <div class="col-lg-3 col-md-6 m_padding_none">
                         <h6>Community</h6>
                         <a href="#">
-                            <p class="m_font_little m_bold">Tutorials</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Meetups</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Q&A</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Write for Donations</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Droplets for Demos</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">HTCH</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Shop Swag</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Research Program</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">Current Research</p>
+                            <p>Tutorials</p>
                         </a>
                         <a href="#">
-                            <p class="m_font_little m_bold">Open Source</p>
+                            <p>Meetups</p>
+                        </a>
+                        <a href="#">
+                            <p>Q&A</p>
+                        </a>
+                        <a href="#">
+                            <p>Write for Donations</p>
+                        </a>
+                        <a href="#">
+                            <p>Droplets for Demos</p>
+                        </a>
+                        <a href="#">
+                            <p>HTCH</p>
+                        </a>
+                        <a href="#">
+                            <p>Shop Swag</p>
+                        </a>
+                        <a href="#">
+                            <p>Research Program</p>
+                        </a>
+                        <a href="#">
+                            <p>Current Research</p>
+                        </a>
+                        <a href="#">
+                            <p>Open Source</p>
                         </a>
 
                     </div>
@@ -528,11 +551,13 @@
                     <div class="col-lg-3 col-md-6 m_padding_none">
                         <h6>Support</h6>
                         <a href="#">
-                            <p class="m_font_little m_bold">Contact Support</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold">FAQ</p>
-                        </a><a href="#">
-                            <p class="m_font_little m_bold ">Network Status</p>
+                            <p>Contact Support</p>
+                        </a>
+                        <a href="#">
+                            <p>FAQ</p>
+                        </a>
+                        <a href="#">
+                            <p>>Network Status</p>
                         </a>
 
                     </div>
