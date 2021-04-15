@@ -134,6 +134,9 @@ form input,h3{
     font-size: 14px;
 }
 
+.m_padding_50{
+    padding-top: 50px;
+}
 /*MAIN*/
 
 /*PARTNER*/
@@ -281,10 +284,10 @@ td:last-child{
     padding-top: 40px;
 }
 
-
-
 .m_wd_40{
     width:40%;
+
+
 }
 
 /*GET STARTED */
@@ -308,6 +311,19 @@ td:last-child{
     margin-top:20px;
 }
 
+/* FOOTER */
+
+.m_footer{
+    background-color: darkblue;
+}
+
+.m_footer h6{
+    color:white;
+}
+
+.m_footer p{
+    color:lightgray;
+}
 
 @media screen and (max-width:768px){
     .m_bg_jumbo_account_xs{
