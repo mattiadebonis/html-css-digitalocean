@@ -61,6 +61,10 @@
 
 /*JUMBOTRON*/
 
+a{
+    text-decoration: none;
+}
+
 .m_jumbo_LG{
     background-image: url(../img/bg-banner-home.jpg);
     background-repeat: no-repeat;
@@ -152,7 +156,7 @@ form input,h3{
 }
 
 .m_img_deploy{
-    width: 75px;
+    width: 60px;
     align-items: left;
     margin-bottom: 10px;
 }
@@ -165,6 +169,43 @@ form input,h3{
 .m_section_deploy{
     margin-bottom:40px;
 }
+
+/*SECTION DESIGN*/
+.m_section_design{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(242,245,249);
+
+}
+.m_wd_60{
+    width: 60%;   
+    margin: 0 auto;
+}
+.m_position_relative{
+    position:relative;
+}
+
+.m_label_carousel{
+    position:absolute;
+    top: 350px;
+}
+.m_height_500{
+    height: 450px;
+}
+
+
+/* SECTION FEATURE */
+.m_section_feature{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.m_container_title_feature{
+    margin-bottom: 10px;
+
+}
+
+
 
 @media screen and (max-width:992px){
     h1{
@@ -181,6 +222,9 @@ form input,h3{
         height: 360px;
     }
 }
+
+
+
 
 @media screen and (max-width:768px){
     .m_bg_jumbo_account_xs{
