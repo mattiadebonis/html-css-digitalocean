@@ -84,6 +84,7 @@ a{
 }
 
 h1{
+    margin-top: 30px;
     font-size: 50px;
 }
 
@@ -181,18 +182,32 @@ form input,h3{
     width: 60%;   
     margin: 0 auto;
 }
-.m_position_relative{
-    position:relative;
-}
 
-.m_label_carousel{
+.m_left_carousel{
     position:absolute;
-    top: 350px;
-}
-.m_height_500{
-    height: 450px;
+    left:0px;
+    top:50%;
+    color: black;
+  }
+.m_right_carousel{
+    position:absolute;
+    right:0px;
+    top:50%;
 }
 
+.m_button_carousel{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    border: 1px solid blue;
+}
+a:active .m_button_carousel{
+    color: blue;
+}
+.m_button_carousel:active{
+    color: blue;
+}
 
 /* SECTION FEATURE */
 .m_section_feature{
@@ -205,8 +220,6 @@ form input,h3{
 
 }
 
-
-
 @media screen and (max-width:992px){
     h1{
         margin-top: 30px;
@@ -216,27 +229,94 @@ form input,h3{
     .m_jumbo_md{
         height: 440px;
     }
-
+    
     .m_jumbo_account_md{
         margin-top: 30px;
         height: 360px;
     }
 }
 
+/*REGIONS*/
+.m_section_regions{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: blue;
+    color:white;
 
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color:white;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+    font-size: 10px;
+    line-height: 30px;
+}
+
+th {
+    text-align: left;    
+}
+tr:last-child{
+    border-bottom: 0px;
+}
+
+td:first-child{
+    font-weight: bold;
+}
+
+td:last-child{
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+/* section teams*/
+.m_section_teams{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+
+.m_wd_40{
+    width:40%;
+}
+
+/*GET STARTED */
+
+.m_section_get_started{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    background-color: blue;
+
+}
+
+.m_section_get_started > h2{
+    color:white;
+}
+
+.m_button_account{
+    background-color: white;
+    color: blue;
+    font-size: 14px;
+    margin-top:20px;
+}
 
 
 @media screen and (max-width:768px){
     .m_bg_jumbo_account_xs{
         margin-top:10px;
         height: 320px;
-
     }    
     
     .m_jumbo_xs{
         height: 700px;
-
-
     }
     .m_partner_sm{
         height:320px;
